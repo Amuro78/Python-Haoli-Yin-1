@@ -19,7 +19,6 @@ print(f'License plate: {car1.license_plate}'
       )
 
 
-#========================================
 
 
 
