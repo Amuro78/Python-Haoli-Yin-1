@@ -11,12 +11,9 @@ class Elevator:
             print(f'Elevator moved up to floor {self.current_floor}.')
             return
 
-
         else:
             print(f"Already at the top floor {self.top_floor}")
             return
-
-
 
     def floor_down(self):
         if self.current_floor > self.bottom_floor:
@@ -28,12 +25,10 @@ class Elevator:
             print(f"Already at the bottom floor {self.bottom_floor}")
             return
 
-
     def go_to_floor(self,target):
         if target == self.current_floor:
             print(f'We are arriving at floor {target}.')
             return
-
 
         print(f"\nMoving from floor {self.current_floor} to floor {target}:")
 
@@ -41,7 +36,6 @@ class Elevator:
             while self.current_floor < target:
                 self.floor_up()
             return
-
 
         else:
             while self.current_floor > target:
