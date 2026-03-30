@@ -1,7 +1,5 @@
 import random
 
-import race
-
 
 class Car:
 
